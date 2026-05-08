@@ -1,0 +1,20 @@
+# Cloud Function runtime
+functions-framework==3.*
+
+# PDF parsing & chunking
+langchain==0.3.*
+langchain-community==0.3.*
+pypdf==5.*
+
+# Vertex AI embeddings
+langchain-google-vertexai==2.*
+
+# MongoDB Atlas Vector Search via LangChain
+langchain-mongodb==0.2.*
+pymongo==4.*
+
+# GCS download
+google-cloud-storage==2.*
+
+# Env vars in local dev
+python-dotenv==1.*
