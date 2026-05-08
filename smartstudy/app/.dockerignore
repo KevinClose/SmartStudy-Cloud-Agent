@@ -1,0 +1,23 @@
+# Local secrets — NEVER ship to production
+.env
+.env.example
+.env.yaml
+service-account-key.json
+*-key.json
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts
+*.egg-info/
+.pytest_cache/
