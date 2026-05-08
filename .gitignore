@@ -30,3 +30,6 @@ service-account-key.json
 dist/
 build/
 .pytest_cache/
+
+# YAML env files (used for Cloud Functions deployment)
+*.env.yaml

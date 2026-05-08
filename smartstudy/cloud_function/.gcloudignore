@@ -1,0 +1,17 @@
+# Local dev files — don't deploy to Cloud Functions
+.env
+.env.example
+.env.yaml
+test_local.py
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
