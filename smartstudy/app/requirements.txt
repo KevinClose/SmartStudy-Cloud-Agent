@@ -1,0 +1,17 @@
+# Streamlit UI
+streamlit==1.39.*
+streamlit-autorefresh==1.0.*
+
+# LangChain core + LCEL
+langchain==0.3.*
+langchain-core==0.3.*
+
+# Vertex AI: embeddings + Gemini chat model
+langchain-google-vertexai==2.*
+
+# MongoDB Atlas vector store + chat history
+langchain-mongodb==0.2.*
+pymongo==4.*
+
+# Local env vars
+python-dotenv==1.*
